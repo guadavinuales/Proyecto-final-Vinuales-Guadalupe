@@ -1,0 +1,20 @@
+/*Proyectos*/
+
+.boton {
+  border: 0px;
+  border-radius: 5px;
+  background-color: $color-botones;
+  padding: 15px;
+  display: inline-block;
+  color: $color-fuentes;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode',  'Lucida Grande',  'Lucida Sans',  Arial,  sans-serif;
+  transition: background-color 0.5s ease;
+
+  &:hover {
+    background-color: lighten($color-botones, 10%); 
+  }
+}

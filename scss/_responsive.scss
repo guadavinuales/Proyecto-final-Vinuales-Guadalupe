@@ -1,0 +1,42 @@
+/*Media Queries*/
+
+@media (max-width: 900px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    .problema {
+        margin-right: 0;
+
+        h5 {
+            margin-top: 30px;
+        }
+    }
+
+    .contenido h5 {
+        margin-top: 30px;
+    }
+
+    .grid-container>.mock-up1 {
+        align-self: center;
+    }
+}
+
+@media (min-width: 700px) {
+
+    .content-wrapped {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .content-wrapped>* {
+        padding: 2em;
+    }
+
+    .contact-info h4,
+    .contact-info ul,
+    .contact-info p {
+        padding: 1em;
+        text-align: left;
+    }
+}

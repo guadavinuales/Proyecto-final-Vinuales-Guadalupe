@@ -1,0 +1,42 @@
+/*Trabajos 1-2*/
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+    gap: 10px;
+}
+
+.problema {
+    font-size: 18px;
+    color: $color-fuentes;
+    font-weight: lighter;
+    margin-right: 50px;
+
+    h5 {
+        @include anclas;
+    }
+
+    p {
+        margin: 20px 0px;
+    }
+}
+
+.clasificacion {
+    font-size: 18px;
+    font-style: italic;
+}
+
+.contenido {
+    margin: 20px 0px;
+    font-weight: lighter;
+    font-size: 18px;
+
+    h5 {
+        @include anclas;
+    }
+}
+
+.imagen {
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,15 @@
+/*Sobre mi*/
+.aboutMe {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: $color-fuentes;
+    margin: 50px;
+}
+
+.apps {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    margin-top: 100px;
+}
